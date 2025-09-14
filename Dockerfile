@@ -6,3 +6,6 @@ EXPOSE 5678
 
 # Start n8n (image already has entrypoint, but keep explicit)
 CMD ["n8n", "start"]
+
+FROM alpine:3.18
+CMD ["echo", "hello railway"]
