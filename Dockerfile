@@ -9,3 +9,5 @@ CMD ["n8n", "start"]
 
 FROM alpine:3.18
 CMD ["echo", "hello railway"]
+
+FROM n8nio/n8n:latest
